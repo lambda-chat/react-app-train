@@ -10,8 +10,7 @@ const reportWebVitals = (onPerfEntry?: ReportHandler): void => {
         getLCP(onPerfEntry);
         getTTFB(onPerfEntry);
       })
-      // eslint-disable-next-line no-console
-      .catch((err: unknown) => console.error(err));
+      .catch((err) => console.error(err)); // eslint-disable-line no-console
   }
 };
 
