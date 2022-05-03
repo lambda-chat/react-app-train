@@ -35,7 +35,7 @@
         "*.jsx": "${capture}.js",
         "*.tsx": "${capture}.ts",
         "package.json": "package-lock.json, yarn.lock",
-        ".config": ".eslint*, .prettierrc, .stylelintrc.js, tsconfig*.json",
+        ".eslintrc.js": ".eslintignore, tsconfig.eslint.json, .prettierrc, .stylelintrc.js",
         ".gitignore": ".gitattributes, .gitmodules, .gitconfig",
     },
     // Typescript
