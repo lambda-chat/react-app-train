@@ -1,12 +1,12 @@
 import { FC } from 'react';
-import logo from './logo.svg';
+import { createStoreHook } from 'react-redux';
 import './App.css';
+
+const store = createStoreHook;
 
 const App: FC = () => (
   <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-    </header>
+    <header className="App-header">a</header>
   </div>
 );
 
