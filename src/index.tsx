@@ -1,7 +1,6 @@
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import './index.css';
 import { counterSlice } from 'features/counter';
 import App from './App';
 
