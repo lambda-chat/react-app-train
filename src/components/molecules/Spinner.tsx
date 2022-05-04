@@ -6,7 +6,7 @@ import './Spinner.css';
 const Spinner: FC = () => (
   <Segment className="spinner">
     <Dimmer active inverted>
-      <Loader inverted={false}>読み込み中...</Loader>
+      <Loader inverted={false}>Lording...</Loader>
     </Dimmer>
   </Segment>
 );

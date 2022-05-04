@@ -5,7 +5,7 @@ import { Button, Icon } from 'semantic-ui-react';
 const HomeButton: FC = () => (
   <Button basic color="grey" as={Link} to="/">
     <Icon name="home" />
-    ホームへ
+    Home
   </Button>
 );
 

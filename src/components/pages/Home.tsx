@@ -8,7 +8,7 @@ import './Home.css';
 const Home: FC<{ orgCodes: string[] }> = ({ orgCodes = [] }) => (
   <>
     <header className="app-header">
-      <h1>会社一覧</h1>
+      <h1>Company List</h1>
     </header>
     <List celled relaxed>
       {orgCodes.map((orgCode) => (
@@ -16,7 +16,7 @@ const Home: FC<{ orgCodes: string[] }> = ({ orgCodes = [] }) => (
           <List.Icon name="users" size="large" verticalAlign="middle" />
           <List.Content>
             <Link to={`/${orgCode}/members`}>
-              {capitalize(orgCode)} のメンバー
+              {`${capitalize(orgCode)}'s members`}
             </Link>
           </List.Content>
         </List.Item>

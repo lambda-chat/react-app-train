@@ -19,7 +19,7 @@ const Members: FC<Props> = ({
   users = [],
   isLoading = false,
 }) => {
-  const title = `${capitalize(orgCode)} の開発メンバー`;
+  const title = `${capitalize(orgCode)}'s development members`;
 
   return (
     <>
